@@ -1,0 +1,33 @@
+.Contributor {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 50%);
+    font-size: 70%;
+}
+
+.Contributor img {
+    border-radius: 100%; margin: 1%; aspect-ratio: 1/1;
+}
+
+.EqFiller {
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.Who {
+    height: 100%;
+    display: table;
+    width: 100%;
+    position: relative;
+    font-size: 3%;
+    color: white;
+}
+
+.Who div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
